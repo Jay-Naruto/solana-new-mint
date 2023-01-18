@@ -3,7 +3,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react/solana";
 import "../styles/globals.css";
 
 // Change the network to the one you want to use: "mainnet-beta", "testnet", "devnet", "localhost" or your own RPC endpoint
-const network = "mainnet-beta";
+const network = "devnet";
 
 function MyApp({ Component, pageProps }) {
   return (
